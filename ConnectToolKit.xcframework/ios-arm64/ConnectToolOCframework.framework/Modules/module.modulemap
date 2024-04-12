@@ -1,0 +1,6 @@
+framework module ConnectToolOCframework {
+  umbrella header "ConnectToolOCframework.h"
+  export *
+
+  module * { export * }
+}
