@@ -5,6 +5,7 @@
 -  將其資料夾直接拖拉進專案
 ![image](https://github.com/jianweiCiou/com.17dame.connecttool_ios_oc/blob/main/images/add_to_folder.png)
 -  完成安裝
+<img src="https://github.com/jianweiCiou/com.17dame.connecttool_ios_oc/blob/main/images/Kit.png" width="100"  >
 ![image](https://github.com/jianweiCiou/com.17dame.connecttool_ios_oc/blob/main/images/Kit.png | width=100)
 
 ## Setting   
