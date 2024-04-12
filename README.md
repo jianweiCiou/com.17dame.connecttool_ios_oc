@@ -5,17 +5,18 @@
 -  將其資料夾直接拖拉進專案
 <img src="https://github.com/jianweiCiou/com.17dame.connecttool_ios_oc/blob/main/images/add_to_folder.png" width="600">
 -  完成安裝
-<img src="https://github.com/jianweiCiou/com.17dame.connecttool_ios_oc/blob/main/images/Kit.png" width="350"> 
+<img src="https://github.com/jianweiCiou/com.17dame.connecttool_ios_oc/blob/main/images/Kit.png" width="300"> 
 
 ## Setting   
 ### 加入 ConnectToolConfig
 - Add ConnectToolConfig.xcconfig to Project 
 - File > New > File > Configurations > Debug & Release
 <img src="https://github.com/jianweiCiou/com.17dame.connecttool_ios/blob/main/images/add_config.png?raw=true" width="600">
+
 - 命其名為 : ConnectToolConfig
 
 - 進 Project 進行配置
-![image](https://github.com/jianweiCiou/com.17dame.connecttool_ios/blob/main/images/set_config.png?raw=true)
+<img src="https://github.com/jianweiCiou/com.17dame.connecttool_ios/blob/main/images/set_config.png?raw=true" width="600">
 
 - 填入對應資料
 ```txt
@@ -36,7 +37,7 @@ Game_id =
     <key>Game_id</key>
     <string>$(Game_id)</string>  
 ```
-![image](https://github.com/jianweiCiou/com.17dame.connecttool_ios/blob/main/images/plist.png?raw=true)
+<img src="https://github.com/jianweiCiou/com.17dame.connecttool_ios/blob/main/images/plist.png?raw=true" width="600">
 
 ## ViewController 佈局
 ### ConnectTool 初始
@@ -198,3 +199,66 @@ ConnectToolBlack *_connectTool;
     }];
 }
 ```
+- [用戶資訊格式](https://github.com/jianweiCiou/com.17dame.connecttool_android/tree/main?tab=readme-ov-file#openauthorizeurl)
+
+
+## 儲值 SP
+### 呼叫範例
+```objc
+- (IBAction)OpenRechargeURL:(id)sender {
+    NSString *notifyUrl = @"";// NotifyUrl is a URL customized by the game developer
+    
+    NSString *state = @"Custom state";// Custom state
+    
+    // Step2. Set currencyCode
+    NSString *currencyCode = @"2";
+    [_connectTool OpenRechargeURL:currencyCode _notifyUrl:notifyUrl state:state rootVC:self];
+}
+```
+- currencyCode : 目前 TWD 帶入 2 ([幣種對照](https://github.com/jianweiCiou/com.17dame.connecttool_android/tree/main?tab=readme-ov-file#currency-code))
+- notifyUrl : 遊戲開發者自訂的 URL ([Notifyurl 說明](https://github.com/jianweiCiou/com.17dame.connecttool_android/tree/main?tab=readme-ov-file#notifyurl--state))
+- state : 請填寫要驗證的內容
+ 
+### 儲值 SP 測試用資料
+- 測試卡號 : 4111111111111111
+- 有效年月 : 11/24
+- 末三碼 : 111
+- OTP 密碼七碼 : 直接點選手機接收，然後輸入 OTP 密碼七碼 1234567
+### 參考
+[儲值說明](https://github.com/jianweiCiou/com.17dame.connecttool_android/tree/main?tab=readme-ov-file#open-recharge-page)
+
+
+## 消費 SP
+### 呼叫範例
+```objc
+/// 開啟消費頁
+- (IBAction)OpenConsumeSPURL:(id)sender {
+    NSString *notifyUrl = @""; // NotifyUrl is a URL customized by the game
+    NSString *state = [[NSUUID UUID]UUIDString];
+    
+    NSInteger consume_spCoin = 1;
+    NSString *orderNo = [[NSUUID UUID]UUIDString];
+    NSString *requestNumber = [[NSUUID UUID]UUIDString];
+    
+    NSString *GameName = @"GameName";
+    NSString *productName = @"productName";
+    
+    [_connectTool OpenConsumeSPURL:consume_spCoin orderNo:orderNo GameName:GameName productName:productName _notifyUrl:notifyUrl state:state requestNumber:requestNumber rootVC:self];
+}
+```
+- consume_spCoin : 商品定價
+- orderNo : 遊戲開發者自訂的 OrderNo, String 格式
+- productName : 商品名稱
+- GameName : 遊戲名稱
+- notifyUrl : 遊戲開發者自訂的 URL (https://github.com/jianweiCiou/com.17dame.connecttool_android/tree/main?tab=readme-ov-file#notifyurl--state)
+- state : 請填寫要驗證的內容
+- requestNumber : UUID
+
+### 開啟頁面
+[消費說明](https://github.com/jianweiCiou/com.17dame.connecttool_android/tree/main?tab=readme-ov-file#open-consumesp-page)
+
+### 遊戲 Server 端驗證方式
+- [驗證流程參考](https://github.com/jianweiCiou/com.17dame.connecttool_android/tree/main?tab=readme-ov-file#consumesp-flow)
+- 請於將 NotifyUrl 設定為遊戲 Server 端網址, 消費者扣除 SP 後會發送通知到此網址
+- NotifyCheck : 請回應 "ok" 或是 "true" 即可
+- NotifyCheck  [參考](https://github.com/jianweiCiou/com.17dame.connecttool_android/tree/main?tab=readme-ov-file#notifycheck)
