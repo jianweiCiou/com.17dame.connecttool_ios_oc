@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C1482052BCE13E100D014AF /* ConnectToolKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C1482042BCE13E100D014AF /* ConnectToolKit.xcframework */; };
 		6C3A425C2BC9016900236C0F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C3A425B2BC9016900236C0F /* AppDelegate.m */; };
 		6C3A425F2BC9016900236C0F /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C3A425E2BC9016900236C0F /* SceneDelegate.m */; };
 		6C3A42622BC9016900236C0F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C3A42612BC9016900236C0F /* ViewController.m */; };
@@ -14,11 +15,11 @@
 		6C3A42672BC9016A00236C0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C3A42662BC9016A00236C0F /* Assets.xcassets */; };
 		6C3A426A2BC9016A00236C0F /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 6C3A42692BC9016A00236C0F /* Base */; };
 		6C3A426D2BC9016A00236C0F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C3A426C2BC9016A00236C0F /* main.m */; };
-		6C3A42742BC9022700236C0F /* ConnectToolKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C3A42732BC9022600236C0F /* ConnectToolKit.xcframework */; };
 		6C3A42762BC9057C00236C0F /* ConnectToolConfig.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 6C3A42752BC9057C00236C0F /* ConnectToolConfig.xcconfig */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6C1482042BCE13E100D014AF /* ConnectToolKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = ConnectToolKit.xcframework; path = ../../ConnectToolKit.xcframework; sourceTree = "<group>"; };
 		6C3A42572BC9016900236C0F /* CoonectTool_OC_example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoonectTool_OC_example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C3A425A2BC9016900236C0F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6C3A425B2BC9016900236C0F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -31,7 +32,6 @@
 		6C3A42692BC9016A00236C0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6C3A426B2BC9016A00236C0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6C3A426C2BC9016A00236C0F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6C3A42732BC9022600236C0F /* ConnectToolKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = ConnectToolKit.xcframework; path = ../../../../ConnectTool_OC_xcworkspace/output/ConnectToolKit.xcframework; sourceTree = "<group>"; };
 		6C3A42752BC9057C00236C0F /* ConnectToolConfig.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = ConnectToolConfig.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -40,7 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C3A42742BC9022700236C0F /* ConnectToolKit.xcframework in Frameworks */,
+				6C1482052BCE13E100D014AF /* ConnectToolKit.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,7 +67,7 @@
 		6C3A42592BC9016900236C0F /* CoonectTool_OC_example */ = {
 			isa = PBXGroup;
 			children = (
-				6C3A42732BC9022600236C0F /* ConnectToolKit.xcframework */,
+				6C1482042BCE13E100D014AF /* ConnectToolKit.xcframework */,
 				6C3A425A2BC9016900236C0F /* AppDelegate.h */,
 				6C3A425B2BC9016900236C0F /* AppDelegate.m */,
 				6C3A425D2BC9016900236C0F /* SceneDelegate.h */,
