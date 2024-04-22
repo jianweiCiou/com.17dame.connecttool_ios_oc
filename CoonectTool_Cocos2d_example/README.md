@@ -23,10 +23,18 @@
   
 ## 安裝
 -  取得 ConnectToolKit.xcframework
--  將其資料夾直接拖拉進專案
-<img src="https://github.com/jianweiCiou/com.17dame.connecttool_ios_oc/blob/main/images/add_to_folder.png" width="600">
--  完成安裝
-<img src="https://github.com/jianweiCiou/com.17dame.connecttool_ios_oc/blob/main/images/Kit.png" width="300"> 
+-  選取專案 -> Link Binary With Libraries , 選擇下方下入 
+<img src="https://github.com/jianweiCiou/com.17dame.connecttool_ios_oc/blob/main/CoonectTool_Cocos2d_example/link_flow_1.jpg" width="600">
+
+-  彈跳視窗選擇 Add Files
+<img src="https://github.com/jianweiCiou/com.17dame.connecttool_ios_oc/blob/main/CoonectTool_Cocos2d_example/link_flow_2.jpg" width="300">
+
+-  選擇 SDK 提供的 ConnectToolKit.xcframework 資料夾
+<img src="https://github.com/jianweiCiou/com.17dame.connecttool_ios_oc/blob/main/CoonectTool_Cocos2d_example/link_flow_3.jpg" width="400">
+
+-  完成 Link Binary With Libraries 的引用
+<img src="https://github.com/jianweiCiou/com.17dame.connecttool_ios_oc/blob/main/CoonectTool_Cocos2d_example/link_flow_4.jpg" width="400">
+
 
 ## Setting   
 ### 加入 ConnectToolConfig
