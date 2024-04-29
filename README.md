@@ -42,8 +42,7 @@
 - 填入對應資料
 ```txt
 X_Developer_Id = 
-client_secret = 
-redirect_uri = 
+client_secret =  
 Game_id = 
 ```
 
