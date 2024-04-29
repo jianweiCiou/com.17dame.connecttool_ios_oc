@@ -3,23 +3,7 @@
 ## Table of Contents  
 - [安裝](#安裝) 
 - [Setting](#setting)
-    - [加入 ConnectToolConfig](#加入-connecttoolconfig)
-- [VC 佈局](#viewcontroller-佈局)
-    - [ConnectTool 初始](#connecttool-初始)
-- [發行版本切換](#發行版本切換)
-- [登入 / 註冊](#登入--註冊)
-    - [範例](#呼叫範例)
-    - [參考](#參考)
-- [取得用戶資訊](#取得用戶資訊)
-    - [範例](#呼叫範例-1) 
-- [儲值 SP](#儲值-sp)
-    - [範例](#呼叫範例-2) 
-    - [儲值 SP 測試用資料](#儲值-sp-測試用資料) 
-    - [參考](#參考-1)
-- [消費 SP](#消費-sp)
-    - [範例](#呼叫範例-3)
-    - [消費說明](#開啟頁面)
-- [遊戲 Server 端驗證方式](#遊戲-server-端驗證方式)
+    - [加入 ConnectToolConfig](#加入-connecttoolconfig) 
   
 ## 安裝
 -  取得 ConnectToolKit.xcframework
@@ -34,5 +18,41 @@
 
 -  完成 Link Binary With Libraries 的引用
 <img src="https://github.com/jianweiCiou/com.17dame.connecttool_ios_oc/blob/main/CoonectTool_Cocos2d_example/link_flow_4.jpg" width="400">
+
+
+## Setting   
+### 加入 ConnectToolConfig
+- Add ConnectToolConfig.xcconfig to Project 
+- File > New > File > Configurations > Debug & Release
+<img src="https://github.com/jianweiCiou/com.17dame.connecttool_ios/blob/main/images/add_config.png?raw=true" width="600">
+
+- 命其名為 : ConnectToolConfig
+<img src="https://github.com/jianweiCiou/com.17dame.connecttool_ios_oc/blob/main/CoonectTool_Cocos2d_example/saveConfig.jpg" width="400">
+ 
+- 儲存
+<img src="https://github.com/jianweiCiou/com.17dame.connecttool_ios_oc/blob/main/CoonectTool_Cocos2d_example/saveConfig.jpg" width="400">
+
+- 進 Project 進行配置
+<img src="https://github.com/jianweiCiou/com.17dame.connecttool_ios_oc/blob/main/CoonectTool_Cocos2d_example/configSet.jpg" width="450">
+
+- 填入對應資料
+```txt
+X_Developer_Id = 
+client_secret =  
+Game_id = 
+```
+
+- Info.plist 增加數據
+```XML 
+    <key>X_Developer_Id</key>
+    <string>$(X_Developer_Id)</string>
+    <key>client_secret</key>
+    <string>$(client_secret)</string>
+    <key>redirect_uri</key>
+    <string>$(redirect_uri)</string>
+    <key>Game_id</key>
+    <string>$(Game_id)</string>  
+```
+<img src="https://github.com/jianweiCiou/com.17dame.connecttool_ios_oc/blob/main/CoonectTool_Cocos2d_example/infoAddkey.jpg" width="450">
 
  
