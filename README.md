@@ -51,9 +51,7 @@ Game_id =
     <key>X_Developer_Id</key>
     <string>$(X_Developer_Id)</string>
     <key>client_secret</key>
-    <string>$(client_secret)</string>
-    <key>redirect_uri</key>
-    <string>$(redirect_uri)</string>
+    <string>$(client_secret)</string> 
     <key>Game_id</key>
     <string>$(Game_id)</string>  
 ```
