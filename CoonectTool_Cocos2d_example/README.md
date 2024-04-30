@@ -7,6 +7,9 @@
   
 ## 安裝
 -  取得 ConnectToolKit.xcframework
+-  複製到專案根目錄
+<img src="https://github.com/jianweiCiou/com.17dame.connecttool_ios_oc/blob/main/CoonectTool_Cocos2d_example/cpoyFolder.jpg" width="250">
+
 -  選取專案 -> Link Binary With Libraries , 選擇下方下入 
 <img src="https://github.com/jianweiCiou/com.17dame.connecttool_ios_oc/blob/main/CoonectTool_Cocos2d_example/link_flow_1.jpg" width="600">
 
