@@ -1,61 +1,40 @@
-# com.17dame.connecttool_ios_oc
-
-## Table of Contents  
-- [安裝](#安裝) 
-- [Setting](#setting)
-    - [加入 ConnectToolConfig](#加入-connecttoolconfig) 
-  
-## 安裝
--  取得 ConnectToolKit.xcframework
--  複製到專案根目錄
-<img src="https://github.com/jianweiCiou/com.17dame.connecttool_ios_oc/blob/main/CoonectTool_Cocos2d_example/cpoyFolder.jpg" width="250">
-
--  選取專案 -> Link Binary With Libraries , 選擇下方下入 
-<img src="https://github.com/jianweiCiou/com.17dame.connecttool_ios_oc/blob/main/CoonectTool_Cocos2d_example/link_flow_1.jpg" width="600">
-
--  彈跳視窗選擇 Add Files
-<img src="https://github.com/jianweiCiou/com.17dame.connecttool_ios_oc/blob/main/CoonectTool_Cocos2d_example/link_flow_2.jpg" width="300">
-
--  選擇 SDK 提供的 ConnectToolKit.xcframework 資料夾
-<img src="https://github.com/jianweiCiou/com.17dame.connecttool_ios_oc/blob/main/CoonectTool_Cocos2d_example/link_flow_3.jpg" width="400">
-
--  完成 Link Binary With Libraries 的引用
-<img src="https://github.com/jianweiCiou/com.17dame.connecttool_ios_oc/blob/main/CoonectTool_Cocos2d_example/link_flow_4.jpg" width="400">
-
-
-## Setting   
-### 加入 ConnectToolConfig
-- Add ConnectToolConfig.xcconfig to Project 
-- File > New > File > Configurations > Debug & Release
-<img src="https://github.com/jianweiCiou/com.17dame.connecttool_ios/blob/main/images/add_config.png?raw=true" width="600">
-
-- 命其名為 : ConnectToolConfig
-<img src="https://github.com/jianweiCiou/com.17dame.connecttool_ios_oc/blob/main/CoonectTool_Cocos2d_example/saveConfig.jpg" width="400">
+# com.17dame.connecttool_ios_oc_Pod
  
-- 儲存
-<img src="https://github.com/jianweiCiou/com.17dame.connecttool_ios_oc/blob/main/CoonectTool_Cocos2d_example/saveConfig.jpg" width="400">
+## 安裝 Pod
+### Install
+-  Terminal 移動到 iOS 專案資料夾下,例如：/proj.ios_mac/專案.xcodeproj
+-  執行指令 pod init, 產生出 Podfile
+- 將 platform :ios, '9.0' 改成 '15.0', 並在專案 target 中加入 :  pod 'ConnectToolOC', '~> 0.1'
 
-- 進 Project 進行配置
-<img src="https://github.com/jianweiCiou/com.17dame.connecttool_ios_oc/blob/main/CoonectTool_Cocos2d_example/configSet.jpg" width="450">
-
-- 填入對應資料
 ```txt
-X_Developer_Id = 
-client_secret =  
-Game_id = 
-```
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
 
-- Info.plist 增加數據
-```XML 
-    <key>X_Developer_Id</key>
-    <string>$(X_Developer_Id)</string>
-    <key>client_secret</key>
-    <string>$(client_secret)</string>
-    <key>redirect_uri</key>
-    <string>$(redirect_uri)</string>
-    <key>Game_id</key>
-    <string>$(Game_id)</string>  
+target '專案-desktop' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+  # Pods for 專案-desktop
+end
+
+target '專案-mobile' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for 專案-mobile
+
+  pod 'ConnectToolOC', '~> 0.1'
+end
 ```
-<img src="https://github.com/jianweiCiou/com.17dame.connecttool_ios_oc/blob/main/CoonectTool_Cocos2d_example/infoAddkey.jpg" width="450">
+- 填妥後回到 Terminal ,並執行 pod repo update
+- 更新完後執行 pod install
+  
+
+### 執行
+- 專案資料夾會新增 "專案.xcworkspace", 用.xcworkspace 來開啟專案
+- 開啟 Product -> Clean Build Folder, 清除資料
+- 
+
+
+
 
  
