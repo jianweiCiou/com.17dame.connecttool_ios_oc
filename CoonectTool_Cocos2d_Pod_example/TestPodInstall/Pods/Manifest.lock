@@ -1,0 +1,16 @@
+PODS:
+  - ConnectToolOC (0.1.1)
+
+DEPENDENCIES:
+  - ConnectToolOC (~> 0.1)
+
+SPEC REPOS:
+  trunk:
+    - ConnectToolOC
+
+SPEC CHECKSUMS:
+  ConnectToolOC: dcaf562a2a8cf99c34bfcdec07dcbcef78c21ed4
+
+PODFILE CHECKSUM: 67194a5f2c6e5ef812add1991170a32bcb2d99e2
+
+COCOAPODS: 1.15.2
