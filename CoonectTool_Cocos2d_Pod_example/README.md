@@ -26,4 +26,9 @@ end
 ```
 - 填妥後回到 Terminal ,並執行 pod repo update
 - 更新完後執行 pod install
+- 執行 Product -> Clean Build Folder, 清除資料
+- 如果遇到 Podfile.lock 問題, 請重新開啟 Xcode, 再次執行 pod install
+
+
+
  
