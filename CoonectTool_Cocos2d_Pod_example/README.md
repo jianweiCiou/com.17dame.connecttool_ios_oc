@@ -3,7 +3,7 @@
 ## 安裝 Pod
 -  Terminal 移動到 iOS 專案資料夾下,例如：/proj.ios_mac/專案.xcodeproj
 -  執行指令 pod init, 產生出 Podfile
-- 將 platform :ios, '9.0' 改成 '15.0', 並加入 :  pod 'ConnectToolOC' 
+- 將 platform :ios, '9.0' 改成 '15.0', 並在專案 target 中加入 :  pod 'ConnectToolOC', '~> 0.1'
 
 ```txt
 # Uncomment the next line to define a global platform for your project
@@ -21,8 +21,9 @@ target '專案-mobile' do
 
   # Pods for 專案-mobile
 
-  pod 'ConnectToolOC' 
+  pod 'ConnectToolOC', '~> 0.1'
 end
-
 ```
+- 填妥後回到 Terminal ,並執行 pod repo update
+- 更新完後執行 pod install
  
