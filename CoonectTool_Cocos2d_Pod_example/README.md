@@ -43,12 +43,12 @@ end
 ### 加入 ConnectToolConfig
 - Add ConnectToolConfig.xcconfig to Project 
 - File > New > File > Configurations > Debug & Release
-<img src="https://github.com/jianweiCiou/com.17dame.connecttool_ios/blob/main/images/add_config.png?raw=true" width="600">
+<img src="https://github.com/jianweiCiou/com.17dame.connecttool_ios/blob/main/images/add_config.png?raw=true" width="500">
 
 - 命其名為 : ConnectToolConfig
 
 - 進 Project 進行配置
-<img src="https://github.com/jianweiCiou/com.17dame.connecttool_ios_oc/blob/main/CoonectTool_Cocos2d_Pod_example/images/projectConfig.jpg" width="300">
+<img src="https://github.com/jianweiCiou/com.17dame.connecttool_ios_oc/blob/main/CoonectTool_Cocos2d_Pod_example/images/projectConfig.jpg" width="500">
 
 - 填入對應資料
 ```txt
