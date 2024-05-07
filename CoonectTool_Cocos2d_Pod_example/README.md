@@ -4,7 +4,7 @@
 ### Install
 -  Terminal 移動到 iOS 專案資料夾下,例如：/proj.ios_mac/專案.xcodeproj
 -  執行指令 pod init, 產生出 Podfile
-- 在專案 target 中加入 :  pod 'ConnectToolOC', '~> 0.1'
+- 在 Podfile 專案 target 中加入 :  pod 'ConnectToolOC', '~> 0.1'
 
 ```txt
 # Uncomment the next line to define a global platform for your project
@@ -34,7 +34,7 @@ end
 
 
 ### 執行
-- 專案資料夾會新增 "專案.xcworkspace", 用.xcworkspace 來開啟專案
+- 專案資料夾 proj.ios_mac 會新增 "專案.xcworkspace", 用.xcworkspace 來開啟專案
 - 開啟 Product -> Clean Build Folder, 清除資料 
 - 完成安裝
 
@@ -66,7 +66,7 @@ Game_id =
     <key>Game_id</key>
     <string>$(Game_id)</string>  
 ```
-<img src="https://github.com/jianweiCiou/com.17dame.connecttool_ios/blob/main/images/plist.png?raw=true" width="600">
+<img src="https://github.com/jianweiCiou/com.17dame.connecttool_ios_oc/blob/main/CoonectTool_Cocos2d_Pod_example/images/info.jpg" width="500">
 
 
 ## Sample ViewController 佈局
