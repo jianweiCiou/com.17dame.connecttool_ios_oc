@@ -1,4 +1,6 @@
-# com.17dame.connecttool_ios_oc_Pod
+# com.17dame.connecttool_ios_oc_Pod 
+此範例使用 [Cocoapods : ConnectToolOC](https://cocoapods.org/pods/ConnectToolOC) 與 Cocos2d 來完成登入, 註冊, 切換帳號, 取出用戶資料, 儲值與消費等功能
+
  
 ## 安裝 Pod
 ### Install
