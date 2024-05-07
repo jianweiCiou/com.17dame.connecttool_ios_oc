@@ -70,6 +70,14 @@ Game_id =
 
 
 ## Sample ViewController 佈局
+### 取得 sample code 
+- 檔案位置:
+[ConnectToolOCViewController.h](https://github.com/jianweiCiou/com.17dame.connecttool_ios_oc/blob/main/CoonectTool_Cocos2d_Pod_example/ConnectToolOCViewController.h)
+[ConnectToolOCViewController.m](https://github.com/jianweiCiou/com.17dame.connecttool_ios_oc/blob/main/CoonectTool_Cocos2d_Pod_example/ConnectToolOCViewController.m)
+
+- 請將 ConnectToolOCViewController 加入到專案中的 iOS 資料夾
+<img src="https://github.com/jianweiCiou/com.17dame.connecttool_ios_oc/blob/main/CoonectTool_Cocos2d_Pod_example/images/ios_folder.jpg" width="300">
+
 ### AppController 安排測試資料
 - AppController.h 加入 ConnectToolOCViewController 與 相關參數
 ```objc 
@@ -119,17 +127,7 @@ Game_id =
 }
 ```
 
-## ConnectToolOCViewController 佈局
-
-### 取用 sample code
-
-- 檔案位置:
-[ConnectToolOCViewController.h](https://github.com/jianweiCiou/com.17dame.connecttool_ios_oc/blob/main/CoonectTool_Cocos2d_Pod_example/ConnectToolOCViewController.h)
-[ConnectToolOCViewController.m](https://github.com/jianweiCiou/com.17dame.connecttool_ios_oc/blob/main/CoonectTool_Cocos2d_Pod_example/ConnectToolOCViewController.m)
-
-- 請將 ConnectToolOCViewController 加入到專案中的 iOS 資料夾
-<img src="https://github.com/jianweiCiou/com.17dame.connecttool_ios_oc/blob/main/CoonectTool_Cocos2d_Pod_example/images/ios_folder.jpg" width="300">
-
+## ConnectToolOCViewController 佈局 
 ### ConnectTool 初始
 - 工具初始
 - 設定測試與正式
