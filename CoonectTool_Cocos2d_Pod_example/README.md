@@ -80,8 +80,8 @@ Game_id =
 - 請將 ConnectToolOCViewController 加入到專案中的 iOS 資料夾
 <img src="https://github.com/jianweiCiou/com.17dame.connecttool_ios_oc/blob/main/CoonectTool_Cocos2d_Pod_example/images/ios_folder.jpg" width="300">
 
-### AppController 安排測試資料
-- AppController.h 加入 ConnectToolOCViewController 與 相關參數
+### AppController 使用 sample code
+- AppController.h 加入 ConnectToolOCViewController 與相關參數
 ```objc 
 #import "ConnectToolOCViewController.h"
 
