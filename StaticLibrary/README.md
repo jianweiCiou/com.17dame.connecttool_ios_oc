@@ -24,7 +24,9 @@
 - [遊戲 Server 端驗證方式](#遊戲-server-端驗證方式)
   
 ## 安裝
--  下載檔案 <a href="[data:application/octet-stream,DATA](https://github.com/jianweiCiou/com.17dame.connecttool_ios_oc/blob/main/StaticLibrary/ConnectToolBlackOutput.zip)" download="ConnectToolBlackOutput.zip">靜態庫</a>
+-  下載靜態庫檔案
+[click to download](https://github.com/jianweiCiou/com.17dame.connecttool_ios_oc/blob/main/StaticLibrary/ConnectToolBlackOutput.zip)
+
 -  將其資料夾直接拖拉進專案
 <img src="https://github.com/jianweiCiou/com.17dame.connecttool_ios_oc/blob/main/StaticLibrary/images/Draglib.jpg" width="500">
 <img src="https://github.com/jianweiCiou/com.17dame.connecttool_ios_oc/blob/main/StaticLibrary/images/Draglib2.jpg" width="500"> 
