@@ -1,7 +1,0 @@
-
-合併
-步驟 
-lipo -create /Users/jianweiciou/Documents/StaticLibary/ConnectToolBlack/UniversalLib/arm64/libConnectToolBlack.a /Users/jianweiciou/Documents/StaticLibary/ConnectToolBlack/UniversalLib/x86_64/libConnectToolBlack.a -output libConnectToolBlack.a
-
-檢查指令
-lipo -info libConnectToolBlack.a 
