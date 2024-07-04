@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6CE80C8F2C3500470081DB16 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CE80C8E2C3500470081DB16 /* AppDelegate.m */; };
+		6CE80C922C3500470081DB16 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CE80C912C3500470081DB16 /* SceneDelegate.m */; };
+		6CE80C952C3500470081DB16 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CE80C942C3500470081DB16 /* ViewController.m */; };
+		6CE80C982C3500470081DB16 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 6CE80C972C3500470081DB16 /* Base */; };
+		6CE80C9A2C3500480081DB16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CE80C992C3500480081DB16 /* Assets.xcassets */; };
+		6CE80C9D2C3500480081DB16 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 6CE80C9C2C3500480081DB16 /* Base */; };
+		6CE80CA02C3500480081DB16 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CE80C9F2C3500480081DB16 /* main.m */; };
+		6CE80CB12C3501110081DB16 /* libConnectToolBlack.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CE80CB02C3501110081DB16 /* libConnectToolBlack.a */; };
+		6CE80CB42C3504580081DB16 /* ConnectToolConfig.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 6CE80CB32C3504580081DB16 /* ConnectToolConfig.xcconfig */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6CE80C8A2C3500470081DB16 /* ConnectToolSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConnectToolSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CE80C8D2C3500470081DB16 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6CE80C8E2C3500470081DB16 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6CE80C902C3500470081DB16 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		6CE80C912C3500470081DB16 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		6CE80C932C3500470081DB16 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6CE80C942C3500470081DB16 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6CE80C972C3500470081DB16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6CE80C992C3500480081DB16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6CE80C9C2C3500480081DB16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6CE80C9E2C3500480081DB16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CE80C9F2C3500480081DB16 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6CE80CA62C3501110081DB16 /* AuthorizeInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthorizeInfo.h; sourceTree = "<group>"; };
+		6CE80CA72C3501110081DB16 /* ConnectBasic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectBasic.h; sourceTree = "<group>"; };
+		6CE80CA82C3501110081DB16 /* ConnectToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectToken.h; sourceTree = "<group>"; };
+		6CE80CA92C3501110081DB16 /* ConnectToolBlack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectToolBlack.h; sourceTree = "<group>"; };
+		6CE80CAA2C3501110081DB16 /* ConnectToolOCframework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectToolOCframework.h; sourceTree = "<group>"; };
+		6CE80CAB2C3501110081DB16 /* EnumConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnumConstants.h; sourceTree = "<group>"; };
+		6CE80CAC2C3501110081DB16 /* MeData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeData.h; sourceTree = "<group>"; };
+		6CE80CAD2C3501110081DB16 /* MeInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeInfo.h; sourceTree = "<group>"; };
+		6CE80CB02C3501110081DB16 /* libConnectToolBlack.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libConnectToolBlack.a; sourceTree = "<group>"; };
+		6CE80CB32C3504580081DB16 /* ConnectToolConfig.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = ConnectToolConfig.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6CE80C872C3500470081DB16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CE80CB12C3501110081DB16 /* libConnectToolBlack.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6CE80C812C3500470081DB16 = {
+			isa = PBXGroup;
+			children = (
+				6CE80CB32C3504580081DB16 /* ConnectToolConfig.xcconfig */,
+				6CE80C8C2C3500470081DB16 /* ConnectToolSample */,
+				6CE80C8B2C3500470081DB16 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6CE80C8B2C3500470081DB16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6CE80C8A2C3500470081DB16 /* ConnectToolSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6CE80C8C2C3500470081DB16 /* ConnectToolSample */ = {
+			isa = PBXGroup;
+			children = (
+				6CE80CAF2C3501110081DB16 /* include */,
+				6CE80CB02C3501110081DB16 /* libConnectToolBlack.a */,
+				6CE80C8D2C3500470081DB16 /* AppDelegate.h */,
+				6CE80C8E2C3500470081DB16 /* AppDelegate.m */,
+				6CE80C902C3500470081DB16 /* SceneDelegate.h */,
+				6CE80C912C3500470081DB16 /* SceneDelegate.m */,
+				6CE80C932C3500470081DB16 /* ViewController.h */,
+				6CE80C942C3500470081DB16 /* ViewController.m */,
+				6CE80C962C3500470081DB16 /* Main.storyboard */,
+				6CE80C992C3500480081DB16 /* Assets.xcassets */,
+				6CE80C9B2C3500480081DB16 /* LaunchScreen.storyboard */,
+				6CE80C9E2C3500480081DB16 /* Info.plist */,
+				6CE80C9F2C3500480081DB16 /* main.m */,
+			);
+			path = ConnectToolSample;
+			sourceTree = "<group>";
+		};
+		6CE80CAE2C3501110081DB16 /* ConnectToolBlack */ = {
+			isa = PBXGroup;
+			children = (
+				6CE80CA62C3501110081DB16 /* AuthorizeInfo.h */,
+				6CE80CA72C3501110081DB16 /* ConnectBasic.h */,
+				6CE80CA82C3501110081DB16 /* ConnectToken.h */,
+				6CE80CA92C3501110081DB16 /* ConnectToolBlack.h */,
+				6CE80CAA2C3501110081DB16 /* ConnectToolOCframework.h */,
+				6CE80CAB2C3501110081DB16 /* EnumConstants.h */,
+				6CE80CAC2C3501110081DB16 /* MeData.h */,
+				6CE80CAD2C3501110081DB16 /* MeInfo.h */,
+			);
+			path = ConnectToolBlack;
+			sourceTree = "<group>";
+		};
+		6CE80CAF2C3501110081DB16 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				6CE80CAE2C3501110081DB16 /* ConnectToolBlack */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6CE80C892C3500470081DB16 /* ConnectToolSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CE80CA32C3500480081DB16 /* Build configuration list for PBXNativeTarget "ConnectToolSample" */;
+			buildPhases = (
+				6CE80C862C3500470081DB16 /* Sources */,
+				6CE80C872C3500470081DB16 /* Frameworks */,
+				6CE80C882C3500470081DB16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ConnectToolSample;
+			productName = ConnectToolSample;
+			productReference = 6CE80C8A2C3500470081DB16 /* ConnectToolSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6CE80C822C3500470081DB16 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					6CE80C892C3500470081DB16 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 6CE80C852C3500470081DB16 /* Build configuration list for PBXProject "ConnectToolSample" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6CE80C812C3500470081DB16;
+			productRefGroup = 6CE80C8B2C3500470081DB16 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6CE80C892C3500470081DB16 /* ConnectToolSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6CE80C882C3500470081DB16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CE80C9A2C3500480081DB16 /* Assets.xcassets in Resources */,
+				6CE80C9D2C3500480081DB16 /* Base in Resources */,
+				6CE80C982C3500470081DB16 /* Base in Resources */,
+				6CE80CB42C3504580081DB16 /* ConnectToolConfig.xcconfig in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6CE80C862C3500470081DB16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CE80C952C3500470081DB16 /* ViewController.m in Sources */,
+				6CE80C8F2C3500470081DB16 /* AppDelegate.m in Sources */,
+				6CE80CA02C3500480081DB16 /* main.m in Sources */,
+				6CE80C922C3500470081DB16 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6CE80C962C3500470081DB16 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CE80C972C3500470081DB16 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6CE80C9B2C3500480081DB16 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CE80C9C2C3500480081DB16 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6CE80CA12C3500480081DB16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CE80CB32C3504580081DB16 /* ConnectToolConfig.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				EXCLUDED_ARCHS = "";
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6CE80CA22C3500480081DB16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CE80CB32C3504580081DB16 /* ConnectToolConfig.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				EXCLUDED_ARCHS = "";
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6CE80CA42C3500480081DB16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CE80CB32C3504580081DB16 /* ConnectToolConfig.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9RCU9932KB;
+				EXCLUDED_ARCHS = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ConnectToolSample/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ConnectToolSample",
+				);
+				MACH_O_TYPE = mh_execute;
+				MARKETING_VERSION = 1.0;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.r17dame.connecttool.ConnectToolSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6CE80CA52C3500480081DB16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CE80CB32C3504580081DB16 /* ConnectToolConfig.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9RCU9932KB;
+				EXCLUDED_ARCHS = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ConnectToolSample/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ConnectToolSample",
+				);
+				MACH_O_TYPE = mh_execute;
+				MARKETING_VERSION = 1.0;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.r17dame.connecttool.ConnectToolSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6CE80C852C3500470081DB16 /* Build configuration list for PBXProject "ConnectToolSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CE80CA12C3500480081DB16 /* Debug */,
+				6CE80CA22C3500480081DB16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CE80CA32C3500480081DB16 /* Build configuration list for PBXNativeTarget "ConnectToolSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CE80CA42C3500480081DB16 /* Debug */,
+				6CE80CA52C3500480081DB16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6CE80C822C3500470081DB16 /* Project object */;
+}
